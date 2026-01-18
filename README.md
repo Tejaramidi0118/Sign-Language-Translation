@@ -85,3 +85,46 @@ src/
 realtime/
   realtime_signwordnet_pretty.py
   app.py
+
+---
+
+## Training
+
+To train the model, run:
+  python src/train_signwordnet_synthetic.py
+
+Training includes:
+
+- Cross-entropy loss optimization  
+- Adam optimizer  
+- Validation-based checkpoint selection  
+- Regularization using dropout  
+
+---
+
+## Inference
+
+Single image prediction:
+  python src/infer_single_image.py
+
+
+---
+
+## Model Explainability
+
+Grad-CAM is used to visualize important image regions influencing model predictions. This ensures that the network focuses on relevant hand gesture regions rather than background noise.
+
+---
+
+## Future Enhancements
+
+- Sequence-based sign translation using LSTM or Transformer models  
+- Video-based continuous sign recognition  
+- Speech synthesis integration  
+- Deployment as a web or mobile application  
+
+---
+
+
+Real-time webcam-based inference:
+  python realtime/realtime_signwordnet_pretty.py
