@@ -85,7 +85,7 @@ src/
 realtime/
   realtime_signwordnet_pretty.py
   app.py
-
+```
 ---
 
 ## Training
@@ -128,4 +128,5 @@ Grad-CAM is used to visualize important image regions influencing model predicti
 - Deployment as a web or mobile application  
 
 ---
+
 
