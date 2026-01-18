@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.h5
+
+data/
+processed_roi_dataset/
+synthetic_dataset/
+Kaggle_Dataset_Sentences/
+sign_vocabulary_dataset/
+Files/
+
+.env

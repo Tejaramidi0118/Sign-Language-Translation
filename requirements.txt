@@ -1,0 +1,17 @@
+# Core web app
+flask==3.1.2
+
+# Numerical stack (PyTorch-compatible)
+numpy==1.26.4
+
+# Deep learning
+torch==2.1.2
+torchvision==0.16.2
+
+# Computer vision
+opencv-python==4.8.1.78
+mediapipe==0.10.9
+pillow>=9.5.0
+
+# Utilities (safe defaults)
+typing-extensions>=4.8.0
