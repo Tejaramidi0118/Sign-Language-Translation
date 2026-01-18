@@ -108,6 +108,10 @@ Single image prediction:
   python src/infer_single_image.py
 
 
+Real-time webcam-based inference:
+  python realtime/realtime_signwordnet_pretty.py
+
+
 ---
 
 ## Model Explainability
@@ -125,6 +129,3 @@ Grad-CAM is used to visualize important image regions influencing model predicti
 
 ---
 
-
-Real-time webcam-based inference:
-  python realtime/realtime_signwordnet_pretty.py
